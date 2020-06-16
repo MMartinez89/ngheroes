@@ -1,27 +1,61 @@
-# Ngheroes
+# NgHeroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.13.
+publicado en => https://jcvaldes.github.io/ngheroes
 
-## Development server
+## Instalar o actualizar angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+npm i -g @angular/cli
+```
 
-## Code scaffolding
+## Versión de angular
+```
+ng --version
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## publicar en github pages
 
-## Build
+```
+npm i -g angular-cli-ghpages
+ng build --prod --base-href "https://jcvaldes.github.io/ngheroes/"
+npx ngh --dir=dist/ngheroes
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Crear componentes
+```
+ng generate component shared/navbar 
+ng g c shared/navbar
 
-## Running unit tests
+ng g c home/home -is (no crea scss)
+                 --skip-tests (no crea test)
+```# NgHeroes
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+publicado en => https://jcvaldes.github.io/ngheroes
 
-## Running end-to-end tests
+## Instalar o actualizar angular
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+npm i -g @angular/cli
+```
 
-## Further help
+## Versión de angular
+```
+ng --version
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## publicar en github pages
+
+```
+npm i -g angular-cli-ghpages
+ng build --prod --base-href "https://jcvaldes.github.io/ngheroes/"
+npx ngh --dir=dist/ngheroes
+```
+
+## Crear componentes
+```
+ng generate component shared/navbar 
+ng g c shared/navbar
+
+ng g c home/home -is (no crea scss)
+                 --skip-tests (no crea test)
+```
