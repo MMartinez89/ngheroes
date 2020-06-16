@@ -17,7 +17,7 @@ ng --version
 
 ```
 npm i -g angular-cli-ghpages
-ng build --prod --base-href "https://jcvaldes.github.io/ngheroes/"
+ng build --prod --base-href "https://MMartinez89.github.io/ngheroes/"
 npx ngh --dir=dist/ngheroes
 ```
 
